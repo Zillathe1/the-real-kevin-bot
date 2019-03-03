@@ -75,4 +75,4 @@ async def on_message(message):
         await client.send_message(message.channel, "<@%s> You" % (userID)) #bot sends/ send to
 
 
-client.run("NTUwNDU1ODgxMDYyNTQ3NDg2.D1tgPg.WtBknfvJnjyZYJb5MC8egdUPZgI") #bots token/ password thing
+client.run(str(os.environ.get("NTUwNDU1ODgxMDYyNTQ3NDg2.D1tgPg.WtBknfvJnjyZYJb5MC8egdUPZgI"))) #bots token/ password thing
